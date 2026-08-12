@@ -1,0 +1,23 @@
+[Unit]
+Description=Safety-Controlled Venue Market Maker
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=trader
+Group=trader
+WorkingDirectory=/opt/venue-market-maker
+EnvironmentFile=/etc/venue-market-maker/market-maker.env
+ExecStart=/opt/venue-market-maker/.venv/bin/market-maker --config /etc/venue-market-maker/binance-testnet.json
+Restart=always
+RestartSec=5
+TimeoutStopSec=20
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/venue-market-maker
+
+[Install]
+WantedBy=multi-user.target

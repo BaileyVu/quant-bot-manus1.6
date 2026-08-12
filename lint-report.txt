@@ -1,0 +1,18 @@
+[1msrc/market_maker/adapters/base.py[0m[36m:[0m49[36m:[0m5[36m:[0m [1;31mB027[0m `ExchangeAdapter.refresh_dead_man_switch` is an empty method in an abstract base class, but has no abstract decorator
+[1msrc/market_maker/adapters/binance.py[0m[36m:[0m56[36m:[0m13[36m:[0m [1;31mSIM105[0m Use `contextlib.suppress(asyncio.CancelledError)` instead of `try`-`except`-`pass`
+[1msrc/market_maker/adapters/binance.py[0m[36m:[0m71[36m:[0m111[36m:[0m [1;31mE501[0m Line too long (118 > 110)
+[1msrc/market_maker/adapters/binance.py[0m[36m:[0m128[36m:[0m111[36m:[0m [1;31mE501[0m Line too long (113 > 110)
+[1msrc/market_maker/adapters/binance.py[0m[36m:[0m206[36m:[0m111[36m:[0m [1;31mE501[0m Line too long (120 > 110)
+[1msrc/market_maker/adapters/hyperliquid.py[0m[36m:[0m66[36m:[0m13[36m:[0m [1;31mSIM105[0m Use `contextlib.suppress(asyncio.CancelledError)` instead of `try`-`except`-`pass`
+[1msrc/market_maker/adapters/hyperliquid.py[0m[36m:[0m78[36m:[0m111[36m:[0m [1;31mE501[0m Line too long (114 > 110)
+[1msrc/market_maker/adapters/hyperliquid.py[0m[36m:[0m83[36m:[0m111[36m:[0m [1;31mE501[0m Line too long (115 > 110)
+[1msrc/market_maker/adapters/hyperliquid.py[0m[36m:[0m86[36m:[0m111[36m:[0m [1;31mE501[0m Line too long (121 > 110)
+[1msrc/market_maker/app.py[0m[36m:[0m56[36m:[0m9[36m:[0m [1;31mSIM105[0m Use `contextlib.suppress(NotImplementedError)` instead of `try`-`except`-`pass`
+[1msrc/market_maker/engine.py[0m[36m:[0m35[36m:[0m111[36m:[0m [1;31mE501[0m Line too long (112 > 110)
+[1msrc/market_maker/engine.py[0m[36m:[0m95[36m:[0m111[36m:[0m [1;31mE501[0m Line too long (117 > 110)
+[1msrc/market_maker/engine.py[0m[36m:[0m146[36m:[0m111[36m:[0m [1;31mE501[0m Line too long (117 > 110)
+[1msrc/market_maker/risk.py[0m[36m:[0m32[36m:[0m111[36m:[0m [1;31mE501[0m Line too long (112 > 110)
+[1msrc/market_maker/risk.py[0m[36m:[0m67[36m:[0m111[36m:[0m [1;31mE501[0m Line too long (114 > 110)
+[1msrc/market_maker/risk.py[0m[36m:[0m105[36m:[0m111[36m:[0m [1;31mE501[0m Line too long (128 > 110)
+Found 16 errors.
+No fixes available (3 hidden fixes can be enabled with the `--unsafe-fixes` option).
