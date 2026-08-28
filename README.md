@@ -31,7 +31,7 @@ Before interacting with the code, all users are **strongly encouraged** to revie
 To contribute or customize the system, begin by forking the repository to your own GitHub account and cloning it locally:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/quant-bot-manus1.6.git
+git clone https://github.com/BaileyVu/quant-bot-manus1.6.git
 cd quant-bot-manus1.6
 ```
 
