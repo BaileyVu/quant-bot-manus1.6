@@ -1,0 +1,2 @@
+[console_scripts]
+quantos = quantos.core.cli:main

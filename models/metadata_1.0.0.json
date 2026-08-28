@@ -1,0 +1,1 @@
+{"model_version": "1.0.0", "features": ["ret_1m", "volatility_15m"], "prediction_horizon_minutes": 15, "symbols": ["BTCUSDT"]}
